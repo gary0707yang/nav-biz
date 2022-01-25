@@ -1,8 +1,8 @@
 # title of website
-title: nav-biz
+title: 启航者 - 外贸启航助手
 
 # description of website
-description: gary0707yang's navigation site
+description: 品牌出海，从这里启航
 
 # favicon of website
 favicon: "https://github.com/gary0707yang.png?size=40"
@@ -10,18 +10,18 @@ favicon: "https://github.com/gary0707yang.png?size=40"
 # your website url
 url: https://gary0707yang.github.io/nav-biz/
 
-# github profile url
-github: "https://github.com/gary0707yang"
+# # github profile url
+# github: "https://github.com/gary0707yang"
 
 # footer message
-footer: © 2021-2021 @gary0707yang
+footer: © 2021-2021 @启航者
 
 # template(theme) of your site, available:
 # 1. webstack (http://webstack.cc)
 template: webstack
 
 # Google analytics
-google_analytics: "G-EXE1PJ8CR2"
+# google_analytics: "G-EXE1PJ8CR2"
 
 webstack:
   search:
@@ -30,25 +30,23 @@ webstack:
     # 可选的搜索引擎
     engines:
       - google
-      - github
-      - weibo
+      - bing
       - baidu
-      - bilibili
       - zhihu
 
 content:
   categories:
-    - name: 常用推荐
+    - name: 外贸论坛
       sites:
-        - name: Dribbble
+        - name: 米课圈
           description: 全球UI设计师作品分享平台。
-          url: https://dribbble.com/
-        - name: Behance
+          url: https://ask.imiker.com/
+        - name: 福步外贸
           description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-          url: https://behance.net/
-        - name: UI中国
+          url: https://bbs.fobshanghai.com/
+        - name: 雨果网
           description: 图形交互与界面设计交流、作品展示、学习平台。
-          url: http://www.ui.cn/
+          url: https://www.cifnews.com/
         - name: 站酷
           description: 中国人气设计师互动平台
           url: http://www.zcool.com.cn/
