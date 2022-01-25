@@ -36,17 +36,7 @@ webstack:
 
 content:
   categories:
-    - name: 外贸论坛
-      sites:
-        - name: 米课圈
-          description: 最活跃的外贸社区。
-          url: https://ask.imiker.com/
-        - name: 福步外贸
-          description: 中国最大的专业外贸论坛，致力于打造全球最具人气、最实用的外贸社区。
-          url: https://bbs.fobshanghai.com/
-        - name: 雨果网
-          description: 致力于为跨境电商从业者提供全球产业出海，链接全球流通，实现全球品牌的产业互联网平台。
-          url: https://www.cifnews.com/
+
     - name: 常用工具
       sites:
         - name: HSCODE 查询
@@ -58,12 +48,28 @@ content:
         - name: 人民币汇率中间价
           description: 外汇管理局权威数据
           url: https://www.safe.gov.cn/safe/rmbhlzjj/index.html
+        - name: 中国银行外汇牌价
+          description: 官方发布渠道
+          url: https://www.boc.cn/sourcedb/whpj/
         - name: 外贸实务查询服务
           description: 国家商务部官方出品，关税，政策，法规全面介绍
           url: http://wmsw.mofcom.gov.cn/wmsw/
         - name: 17Track
           description: 全球包裹物流查询平台
           url: https://www.17track.net/zh-cn
+
+    - name: 政府商务网站
+      sites:
+        - name: 米课圈
+          description: 最活跃的外贸社区。
+          url: https://ask.imiker.com/
+        - name: 福步外贸
+          description: 中国最大的专业外贸论坛，致力于打造全球最具人气、最实用的外贸社区。
+          url: https://bbs.fobshanghai.com/
+        - name: 雨果网
+          description: 致力于为跨境电商从业者提供全球产业出海，链接全球流通，实现全球品牌的产业互联网平台。
+          url: https://www.cifnews.com/
+
     - name: 社交平台
       sites:
         - name: Facebook
@@ -139,3 +145,31 @@ content:
         - name: 自定义谷歌搜索
           description: 定制化搜索结果
           url: https://www.wideindex.com/
+
+
+    - name: 谷歌浏览器插件
+      sites:
+        - name: Grammarly 语法纠正
+          description: 通过姓名，电话，地址，邮箱查找客户在社交平台上的信息
+          url: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen
+        - name: Hunter.io
+          description: 客户邮箱发现工具
+          url: https://chrome.google.com/webstore/detail/hunter-email-finder-exten/hgmhmanijnjhaffoampdlllchpolkdnj
+        - name: Similar Web
+          description: 相似网站查询，同类客户网站搜索
+          url: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp
+        - name: Wappalyzer 
+          description: 独立站技术研究，分析目标网站的属性
+          url: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+
+    - name: 外贸论坛
+      sites:
+        - name: 米课圈
+          description: 最活跃的外贸社区。
+          url: https://ask.imiker.com/
+        - name: 福步外贸
+          description: 中国最大的专业外贸论坛，致力于打造全球最具人气、最实用的外贸社区。
+          url: https://bbs.fobshanghai.com/
+        - name: 雨果网
+          description: 致力于为跨境电商从业者提供全球产业出海，链接全球流通，实现全球品牌的产业互联网平台。
+          url: https://www.cifnews.com/
