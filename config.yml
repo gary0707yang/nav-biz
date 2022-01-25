@@ -51,24 +51,28 @@ content:
         - name: 中国银行外汇牌价
           description: 官方发布渠道
           url: https://www.boc.cn/sourcedb/whpj/
-        - name: 外贸实务查询服务
-          description: 国家商务部官方出品，关税，政策，法规全面介绍
-          url: http://wmsw.mofcom.gov.cn/wmsw/
         - name: 17Track
           description: 全球包裹物流查询平台
           url: https://www.17track.net/zh-cn
 
-    - name: 政府商务网站
+    - name: 政府政策网站
       sites:
-        - name: 米课圈
-          description: 最活跃的外贸社区。
-          url: https://ask.imiker.com/
-        - name: 福步外贸
-          description: 中国最大的专业外贸论坛，致力于打造全球最具人气、最实用的外贸社区。
-          url: https://bbs.fobshanghai.com/
-        - name: 雨果网
-          description: 致力于为跨境电商从业者提供全球产业出海，链接全球流通，实现全球品牌的产业互联网平台。
-          url: https://www.cifnews.com/
+        - name: 中国海关总署
+          description: 进出口，跨境海关指导
+          url: http://www.customs.gov.cn/
+        - name: 协定税率查询
+          description: 税率查询官方指导
+          url: http://fta.mofcom.gov.cn/
+        - name: 各国商务信息
+          description: 对外投资合作国别（地区）指南下载
+          url: http://fec.mofcom.gov.cn/article/gbdqzn/#
+        - name: 外贸实务查询
+          description: 国家商务部官方出品，关税，政策，法规全面介绍
+          url: http://wmsw.mofcom.gov.cn/wmsw/
+        - name: 中国贸促会
+          description: 中国国际贸易促进委员会
+          url: https://www.ccpit.org/index.html#yewuzizhan
+
 
     - name: 社交平台
       sites:
