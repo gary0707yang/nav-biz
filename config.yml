@@ -72,6 +72,12 @@ content:
         - name: 中国贸促会
           description: 中国国际贸易促进委员会
           url: https://www.ccpit.org/index.html#yewuzizhan
+        - name: 中国国际商会
+          description: 从事国际性商业活动的企业及与之相关的组织组成的全国性社会团体
+          url: http://www.ccoic.cn/cms/
+        - name: 中国出口信用保险公司
+          description: 由国家出资设立、支持中国对外经济贸易发展与合作、具有独立法人地位的国有政策性保险公司
+          url: https://www.sinosure.com.cn/
 
 
     - name: 社交平台
@@ -122,9 +128,6 @@ content:
           url: https://www.lianlianpay.com/
     - name: 关键词工具
       sites:
-        - name: 谷歌关键词规划师
-          description: 谷歌官方付费推广关键词有规划方案
-          url: https://www.google.com/adwords/
         - name: Answer the Public
           description: 深度挖掘相关语义关键词以及客户问题
           url: https://answerthepublic.com/
@@ -140,6 +143,9 @@ content:
         - name: WordTracker
           description: 拓展关键词
           url: https://www.wordtracker.com/
+        - name: 谷歌关键词规划师
+          description: 谷歌官方付费推广关键词有规划方案
+          url: https://www.google.com/adwords/
 
     - name: 客户搜索
       sites:
