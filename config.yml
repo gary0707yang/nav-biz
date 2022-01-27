@@ -8,8 +8,7 @@ description: 品牌出海，从这里启航
 favicon: "https://github.com/gary0707yang.png?size=40"
 
 # your website url
-url: https://gary0707yang.github.io/nav-biz/
-
+url: https://find.weqihang.cn
 # # github profile url
 # github: "https://github.com/gary0707yang"
 
@@ -21,7 +20,7 @@ footer: © 2021-2021 @启航者
 template: webstack
 
 # Google analytics
-# google_analytics: "G-EXE1PJ8CR2"
+google_analytics: "G-6YB11E8N7S"
 
 webstack:
   search:
