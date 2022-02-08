@@ -53,6 +53,9 @@ content:
         - name: 17Track
           description: 全球包裹物流查询平台
           url: https://www.17track.net/zh-cn
+        - name: 云岗通
+          description: 全球海运信息查询平台
+          url: https://www.qingdao-port.net/
 
     - name: 政府政策网站
       sites:
