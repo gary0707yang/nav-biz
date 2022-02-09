@@ -36,9 +36,40 @@ function search() {
     var hotList = 0;
     var searchData = {
         "thisSearch": "https://www.google.com/search?q=",
-        "thisSearchIcon": "https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png",
+        "thisSearchIcon": "https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png",
         "hotStatus": true,
-        "data": [{"name":"谷歌","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -105px 0px","position":"-40px 0px","url":"https://www.google.com/search?q="},{"name":"必应","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -80px -25px","position":"0px -40px","url":"https://cn.bing.com/search?q="},{"name":"百度","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px 0px","position":"0px 0px","url":"https://www.baidu.com/s?wd="},{"name":"知乎","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -100px","position":"-40px -160px","url":"https://www.zhihu.com/search?type=content\u0026q="}]
+        "data": [{
+            "name": "谷歌",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px 0px",
+            "position": "-40px 0px",
+            "url": "https://www.google.com/search?q="
+        }, {
+            "name": "必应",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -80px -25px",
+            "position": "0px -40px",
+            "url": "https://cn.bing.com/search?q="
+        }, {
+            "name": "百度",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px 0px",
+            "position": "0px 0px",
+            "url": "https://www.baidu.com/s?wd="
+        }, {
+            "name": "知乎",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -105px -100px",
+            "position": "-40px -160px",
+            "url": "https://www.zhihu.com/search?type=content\u0026q="
+        },{
+            "name": "维基百科",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px -200px",
+            "position": "0px -320px",
+            "url": "https://en.wikipedia.org/w/index.php?search="
+        },
+        {
+            "name": "Quora",
+            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px -175px",
+            "position": "-40px -280px",
+            "url": "https://www.quora.com/search?q="
+        }]
     };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
@@ -229,17 +260,17 @@ function search() {
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="/" class="logo-expanded">
-                            
-                            <p class="overflowClip_2" style="font-size: 20px;"><strong>启航者外贸导航</strong></p>
-                            
+                        <a href="https://weqihang.cn/" class="logo-expanded">
+                        
+                            <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
+                        
                         </a>
-                        <a href="/" class="logo-collapsed">
-                            
-                            <p class="overflowClip_2" style="font-size: 20px;"><strong>启航者外贸导航</strong></p>
-                            
+                        <a href="https://weqihang.cn/" class="logo-collapsed">
+                        
+                            <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
+                        
                         </a>
-                    </div>
+                        </div>
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="mobile-menu">
                             <i class="fa-bars"></i>
@@ -301,6 +332,13 @@ function search() {
                             <span class="title">外贸论坛</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">关注公众号</span>
+                            <span class="picture"><img style="max-width:100%;margin-top:.8rem;" src="https://weqihang.cn/wp-content/uploads/2022/02/qrcode_wechat.jpg" alt="公众号"></span>
+                        </a>
+                        </li>
                 </ul>
             </div>
         </div>
@@ -326,7 +364,7 @@ function search() {
             <section class="sousuo">
               <div class="search">
                 <div class="search-box">
-                  <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>
+                  <span class="search-icon" style="background: url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -40px 0px; opacity: 1;"></span>
                   <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
                   <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
                 </div>
