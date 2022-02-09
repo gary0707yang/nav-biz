@@ -56,6 +56,12 @@ content:
         - name: 云岗通
           description: 全球海运信息查询平台
           url: https://www.qingdao-port.net/
+        - name: 谷歌趋势
+          description: 搜索关键词位置和趋势信息
+          url: https://trends.google.com/trends/
+        - name: OEC World
+          description: 世界经济观察，根据hs编码发掘世界市场变化
+          url: https://oec.world/
 
     - name: 政府政策网站
       sites:
