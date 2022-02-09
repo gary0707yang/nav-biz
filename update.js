@@ -71,6 +71,7 @@ var searchData = {
         "position": "-40px -280px",
         "url": "https://www.quora.com/search?q="
     }]
+};
 
 
 `
