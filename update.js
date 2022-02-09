@@ -75,3 +75,6 @@ var searchData = {
 
 
 `
+
+// 4. 搜索框内图片
+` <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>`
