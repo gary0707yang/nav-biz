@@ -1,21 +1,25 @@
-// 1. 公众号二维码
-const wechat_qr =
 
-    `
-<li>
-<a href="" class="smooth">
+// 1. 公众号二维码
+function addWeQr() {
+    let navList = document.querySelector('#main-menu')
+let weQr = document.createElement('li')
+weQr.innerHTML = `<a href="" class="smooth">
     <i class="linecons-star"></i>
-    <span class="title">关注公众号</span>
+    <span class="title">启航者公众号</span>
     <span class="picture"><img style="max-width:100%;margin-top:.8rem;" src="https://weqihang.cn/wp-content/uploads/2022/02/qrcode_wechat.jpg" alt="公众号"></span>
-</a>
-</li>
-`;
+</a>`
+    navList.appendChild(weQr)
+}
+
+
+
 // 2.回主站的链接
 
-const logo_link =
-    `
-<div class="logo">
-<a href="https://weqihang.cn/" class="logo-expanded">
+function changeLogoLink() {
+    let logoDiv = document.querySelector('div.logo')
+
+    logoDiv.innerHTML = 
+    `<a href="https://weqihang.cn/" class="logo-expanded">
 
     <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
 
@@ -24,11 +28,18 @@ const logo_link =
 
     <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
 
-</a>
-</div>
-`;
+</a>`;
+}
 
-// 3. 搜索引擎
+
+//3. 导航搜索图标链接
+function changeSearchIconLink() {
+    document.querySelector('.search-icon').style.background = "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -40px 0px;"
+}
+
+
+
+// 4. 搜索引擎
 
 const two_search_engine = 
 `
@@ -76,5 +87,3 @@ var searchData = {
 
 `
 
-// 4. 搜索框内图片
-` <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>`
