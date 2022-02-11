@@ -32,8 +32,6 @@ webstack:
       - bing
       - baidu
       - zhihu
-      - wikipedia
-      - quora
 
 content:
   categories:
