@@ -1,9 +1,8 @@
-
 // 1. 公众号二维码
 function addWeQr() {
     let navList = document.querySelector('#main-menu')
-let weQr = document.createElement('li')
-weQr.innerHTML = `<a href="" class="smooth">
+    let weQr = document.createElement('li')
+    weQr.innerHTML = `<a href="" class="smooth">
     <i class="linecons-star"></i>
     <span class="title">启航者公众号</span>
     <span class="picture"><img style="max-width:100%;margin-top:.8rem;" src="https://weqihang.cn/wp-content/uploads/2022/02/qrcode_wechat.jpg" alt="公众号"></span>
@@ -18,8 +17,8 @@ weQr.innerHTML = `<a href="" class="smooth">
 function changeLogoLink() {
     let logoDiv = document.querySelector('div.logo')
 
-    logoDiv.innerHTML = 
-    `<a href="https://weqihang.cn/" class="logo-expanded">
+    logoDiv.innerHTML =
+        `<a href="https://weqihang.cn/" class="logo-expanded">
 
     <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
 
@@ -41,8 +40,8 @@ function changeSearchIconLink() {
 
 // 4. 搜索引擎
 
-const two_search_engine = 
-`
+const two_search_engine =
+    `
 // wiki
 //quora
 
@@ -87,3 +86,7 @@ var searchData = {
 
 `
 
+// 执行计划
+addWeQr();
+changeLogoLink();
+changeSearchIconLink();
