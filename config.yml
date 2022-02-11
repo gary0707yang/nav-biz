@@ -32,6 +32,7 @@ webstack:
       - bing
       - baidu
       - zhihu
+      - wikipedia
 
 content:
   categories:
