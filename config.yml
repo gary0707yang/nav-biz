@@ -53,7 +53,7 @@ content:
         - name: 17Track
           description: 全球包裹物流查询平台
           url: https://www.17track.net/zh-cn
-        - name: 云岗通
+        - name: 云港通
           description: 全球海运信息查询平台
           url: https://www.qingdao-port.net/
         - name: 谷歌趋势
@@ -174,6 +174,9 @@ content:
         - name: 自定义谷歌搜索
           description: 定制化搜索结果
           url: https://www.wideindex.com/
+        - name: 网站时光机
+          description: 穿越时光，查找网站的历史记录
+          url: https://web.archive.org/
 
 
     - name: 谷歌浏览器插件
