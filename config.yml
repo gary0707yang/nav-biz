@@ -182,7 +182,7 @@ content:
     - name: 谷歌浏览器插件
       sites:
         - name: Grammarly 语法纠正
-          description: 通过姓名，电话，地址，邮箱查找客户在社交平台上的信息
+          description: 自动纠错，发现文本中的语句错误，及时提醒
           url: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen
         - name: Hunter.io
           description: 客户邮箱发现工具
