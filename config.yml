@@ -204,7 +204,7 @@ content:
           url: https://www.dazhonghr.com/jobfair/main
 
 
-    - name: 话题工具
+    - name: 内容工具
       sites:
         - name: Answer the Public
           description: 根据5W1H（What/Who/When/Where/Why/How）产生出以关键词为核心的内容拓展方向。
