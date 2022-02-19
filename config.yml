@@ -62,6 +62,9 @@ content:
         - name: OEC World
           description: 世界经济观察，根据hs编码发掘世界市场变化
           url: https://oec.world/
+        - name: Whatsapp 桌面端添加多个好友
+          description: 直接使用电脑添加Whatsapp好友，提高沟通效率
+          url: https://whatsappaddingtool.vercel.app/
 
     - name: 政府政策网站
       sites:
@@ -193,6 +196,29 @@ content:
         - name: Wappalyzer 
           description: 独立站技术研究，分析目标网站的属性
           url: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+    
+    - name: 招聘
+      sites:
+        - name: 大众人才网 - 高校网络双选会
+          description: 高效线上就业工作双选会企业报名入口
+          url: https://www.dazhonghr.com/jobfair/main
+
+
+    - name: 话题工具
+      sites:
+        - name: Answer the Public
+          description: 根据5W1H（What/Who/When/Where/Why/How）产生出以关键词为核心的内容拓展方向。
+          url: https://answerthepublic.com/
+        - name: Buzzsumo
+          description: 根据社媒分享查找当前最热、最流行的内容，掌握内容生产利器。
+          url: https://app.buzzsumo.com/
+        - name: AllTop
+          description: 新闻内容聚合网站，快速了解当前大事向。
+          url: https://alltop.com/
+        - name: HubSpot 话题生成器
+          description: 输入关键词，生成你的博客标题，再也不怕文思枯竭了！
+          url: https://www.hubspot.com/blog-topic-generator
+
 
     - name: 外贸论坛
       sites:
