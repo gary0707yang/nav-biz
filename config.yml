@@ -205,7 +205,7 @@ content:
           
         - name: 求职&工作信息发布邮箱 jobs@weqihang.cn
           description: 发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路
-          url: jobs@weqihang.cn
+          url: https://jobs@weqihang.cn
 
 
     - name: 内容工具
