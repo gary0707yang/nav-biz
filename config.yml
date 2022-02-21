@@ -204,7 +204,7 @@ content:
           url: https://www.dazhonghr.com/jobfair/main
         - name: 求职&工作信息发布邮箱 jobs@weqihang.cn
           description: 发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路
-          url: mailto:jobs@weqihang.cn
+          url: https://weqihang.cn
 
 
     - name: 内容工具
