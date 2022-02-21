@@ -202,9 +202,10 @@ content:
         - name: 大众人才网 - 高校网络双选会
           description: 高效线上就业工作双选会企业报名入口
           url: https://www.dazhonghr.com/jobfair/main
+          
         - name: 求职&工作信息发布邮箱 jobs@weqihang.cn
           description: 发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路
-          url: https://weqihang.cn
+          url: jobs@weqihang.cn
 
 
     - name: 内容工具
