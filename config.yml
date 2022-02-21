@@ -1,5 +1,5 @@
 # title of website
-title: 启航者外贸导航
+title: 启航者
 
 # description of website
 description: 品牌出海，从这里启航
@@ -197,11 +197,14 @@ content:
           description: 独立站技术研究，分析目标网站的属性
           url: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
     
-    - name: 招聘
+    - name: 招聘 & 求职
       sites:
         - name: 大众人才网 - 高校网络双选会
           description: 高效线上就业工作双选会企业报名入口
           url: https://www.dazhonghr.com/jobfair/main
+        - name: 求职&工作信息发布邮箱 jobs@weqihang.cn
+          description: 发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路
+          url: mailto:jobs@weqihang.cn
 
 
     - name: 内容工具
