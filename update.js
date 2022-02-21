@@ -86,6 +86,10 @@ var searchData = {
 
 `
 
+// 5. 邮箱favicon
+
+{/* <img data-src="https://f.start.me/weqihang.cn" class="lozad img-circle" width="40"> */}
+
 // 执行计划
 
 window.onload=function(){
