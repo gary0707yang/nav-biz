@@ -35,42 +35,11 @@ function search() {
     var listIndex = -1;
     var hotList = 0;
     var searchData = {
-    "thisSearch": "https://www.google.com/search?q=",
-    "thisSearchIcon": "https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png",
-    "hotStatus": true,
-    "data": [{
-        "name": "谷歌",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px 0px",
-        "position": "-40px 0px",
-        "url": "https://www.google.com/search?q="
-    }, {
-        "name": "必应",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -80px -25px",
-        "position": "0px -40px",
-        "url": "https://cn.bing.com/search?q="
-    }, {
-        "name": "百度",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px 0px",
-        "position": "0px 0px",
-        "url": "https://www.baidu.com/s?wd="
-    }, {
-        "name": "知乎",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -105px -100px",
-        "position": "-40px -160px",
-        "url": "https://www.zhihu.com/search?type=content\u0026q="
-    },{
-        "name": "维基百科",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px -200px",
-        "position": "0px -320px",
-        "url": "https://en.wikipedia.org/w/index.php?search="
-    },
-    {
-        "name": "Quora",
-        "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px -175px",
-        "position": "-40px -280px",
-        "url": "https://www.quora.com/search?q="
-    }]
-};
+        "thisSearch": "https://www.google.com/search?q=",
+        "thisSearchIcon": "https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png",
+        "hotStatus": true,
+        "data": [{"name":"谷歌","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -105px 0px","position":"-40px 0px","url":"https://www.google.com/search?q="},{"name":"必应","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -80px -25px","position":"0px -40px","url":"https://cn.bing.com/search?q="},{"name":"百度","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px 0px","position":"0px 0px","url":"https://www.baidu.com/s?wd="},{"name":"知乎","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -100px","position":"-40px -160px","url":"https://www.zhihu.com/search?type=content\u0026q="}]
+    };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
         searchData = JSON.parse(localSearchData)
@@ -369,7 +338,7 @@ function search() {
             <section class="sousuo">
               <div class="search">
                 <div class="search-box">
-                  <span class="search-icon" style="background: url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -40px 0px; opacity: 1;"></span>
+                  <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>
                   <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
                   <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
                 </div>
@@ -526,10 +495,40 @@ function search() {
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.wideindex.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.wideindex.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.wideindex.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>自定义谷歌搜索</strong>
+                                </a>
+                                <p class="overflowClip_2">定制化搜索结果</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br />
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="政府政策网站"></i>政府政策网站</h4>
             <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://wmsw.mofcom.gov.cn/wmsw/m', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://wmsw.mofcom.gov.cn/wmsw/m">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/wmsw.mofcom.gov.cn" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>外贸实务查询</strong>
+                                </a>
+                                <p class="overflowClip_2">国家商务部官方出品，税率，税费，监管，法规全面介绍</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.customs.gov.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.customs.gov.cn/">
                         <div class="xe-comment-entry">
@@ -571,21 +570,6 @@ function search() {
                                     <strong>各国商务信息</strong>
                                 </a>
                                 <p class="overflowClip_2">对外投资合作国别（地区）指南下载</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://wmsw.mofcom.gov.cn/wmsw/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://wmsw.mofcom.gov.cn/wmsw/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/wmsw.mofcom.gov.cn" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>外贸实务查询</strong>
-                                </a>
-                                <p class="overflowClip_2">国家商务部官方出品，关税，政策，法规全面介绍</p>
                             </div>
                         </div>
                     </div>
@@ -986,21 +970,6 @@ function search() {
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.wideindex.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.wideindex.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.wideindex.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>自定义谷歌搜索</strong>
-                                </a>
-                                <p class="overflowClip_2">定制化搜索结果</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://web.archive.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://web.archive.org/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
@@ -1011,6 +980,21 @@ function search() {
                                     <strong>网站时光机</strong>
                                 </a>
                                 <p class="overflowClip_2">穿越时光，查找网站的历史记录</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bbs.fobshanghai.com/dig.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bbs.fobshanghai.com/dig.php">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/bbs.fobshanghai.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>福步外贸懒人包</strong>
+                                </a>
+                                <p class="overflowClip_2">找公司→找人→挖邮箱，帮你找到开发思路</p>
                             </div>
                         </div>
                     </div>
@@ -1102,7 +1086,7 @@ function search() {
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('mailto:jobs@weqihang.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="mailto:jobs@weqihang.cn">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/weqihang.cn" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1354,7 +1338,6 @@ function search() {
     <!-- JavaScripts initializations and stuff -->
     <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-custom.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/lozad.js"></script>
-    <script src="/update.js"></script>
 </body>
 
 </html>
