@@ -65,9 +65,15 @@ content:
         - name: Whatsapp 桌面端添加多个好友
           description: 直接使用电脑添加Whatsapp好友，提高沟通效率
           url: https://whatsappaddingtool.vercel.app/
+        - name: 自定义谷歌搜索
+          description: 定制化搜索结果
+          url: https://www.wideindex.com/
 
     - name: 政府政策网站
       sites:
+        - name: 外贸实务查询
+          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
+          url: http://wmsw.mofcom.gov.cn/wmsw/m
         - name: 中国海关总署
           description: 进出口，跨境海关指导
           url: http://www.customs.gov.cn/
@@ -77,9 +83,7 @@ content:
         - name: 各国商务信息
           description: 对外投资合作国别（地区）指南下载
           url: http://fec.mofcom.gov.cn/article/gbdqzn/#
-        - name: 外贸实务查询
-          description: 国家商务部官方出品，关税，政策，法规全面介绍
-          url: http://wmsw.mofcom.gov.cn/wmsw/
+        
         - name: 中国贸促会
           description: 中国国际贸易促进委员会
           url: https://www.ccpit.org/index.html#yewuzizhan
@@ -174,12 +178,14 @@ content:
         - name: 全社交平台客户搜索
           description: 通过姓名，电话，地址，邮箱查找客户在社交平台上的信息
           url: https://www.spokeo.com/
-        - name: 自定义谷歌搜索
-          description: 定制化搜索结果
-          url: https://www.wideindex.com/
+
         - name: 网站时光机
           description: 穿越时光，查找网站的历史记录
           url: https://web.archive.org/
+
+        - name: 福步外贸懒人包
+          description: 找公司→找人→挖邮箱，帮你找到开发思路
+          url: https://bbs.fobshanghai.com/dig.php
 
 
     - name: 谷歌浏览器插件
