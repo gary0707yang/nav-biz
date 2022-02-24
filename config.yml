@@ -93,6 +93,9 @@ content:
         - name: 中国出口信用保险公司
           description: 由国家出资设立、支持中国对外经济贸易发展与合作、具有独立法人地位的国有政策性保险公司
           url: https://www.sinosure.com.cn/
+        - name: 中国国际贸易单一窗口
+          description: 原产地证书申请及核查
+          url: https://www.sinosure.com.cn/
 
 
     - name: 社交平台
