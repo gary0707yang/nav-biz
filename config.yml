@@ -50,27 +50,36 @@ content:
         - name: 中国银行外汇牌价
           description: 官方发布渠道
           url: https://www.boc.cn/sourcedb/whpj/
-        - name: 17Track
-          description: 全球包裹物流查询平台
-          url: https://www.17track.net/zh-cn
-        - name: 云港通
-          description: 全球海运信息查询平台
-          url: https://www.qingdao-port.net/
+
+        - name: 自定义谷歌搜索
+          description: 定制化搜索结果
+          url: https://www.wideindex.com/
         - name: 谷歌趋势
           description: 搜索关键词位置和趋势信息
           url: https://trends.google.com/trends/
         - name: OEC World
           description: 世界经济观察，根据hs编码发掘世界市场变化
           url: https://oec.world/
+        - name: 中国海关数据查询
+          description: 海关总署进出口数据发布
+          url: http://43.248.49.97/
+
         - name: Whatsapp 桌面端添加多个好友
           description: 直接使用电脑添加Whatsapp好友，提高沟通效率
           url: https://whatsappaddingtool.vercel.app/
-        - name: 自定义谷歌搜索
-          description: 定制化搜索结果
-          url: https://www.wideindex.com/
         - name: 外贸术语工具
           description: 遇到外贸缩写不认识？快来这里查一查
           url: http://www.choicexp.com/tool/business-terminology/index.htm
+        - name: 云港通
+          description: 全球海运信息查询平台
+          url: https://www.qingdao-port.net/
+        - name: 17Track
+          description: 全球包裹物流查询平台
+          url: https://www.17track.net/zh-cn
+
+
+
+
 
     - name: 政府政策网站
       sites:
