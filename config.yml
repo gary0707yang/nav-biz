@@ -45,7 +45,7 @@ content:
           description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
           url: http://wmsw.mofcom.gov.cn/wmsw/m
         - name: 阿里巴巴-跨境物流服务查询
-          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
+          description: 提供海运、空运、快递等跨境物流服务报价及查询服务
           url: https://shipping.alibaba.com/
         - name: 中国银行外汇牌价
           description: 官方发布渠道
