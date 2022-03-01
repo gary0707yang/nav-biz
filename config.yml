@@ -41,12 +41,12 @@ content:
         - name: HSCODE 查询
           description: HS编码查询网(www.hsbianma.com)是提供进出口商品HS编码查询,商品编码查询的网站。
           url: https://www.hsbianma.com/
-        - name: 外贸术语工具
-          description: 遇到外贸缩写不认识？快来这里查一查
-          url: http://www.choicexp.com/tool/business-terminology/index.htm
-        - name: 人民币汇率中间价
-          description: 外汇管理局权威数据
-          url: https://www.safe.gov.cn/safe/rmbhlzjj/index.html
+        - name: 外贸实务查询
+          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
+          url: http://wmsw.mofcom.gov.cn/wmsw/m
+        - name: 阿里巴巴-跨境物流服务查询
+          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
+          url: https://shipping.alibaba.com/
         - name: 中国银行外汇牌价
           description: 官方发布渠道
           url: https://www.boc.cn/sourcedb/whpj/
@@ -68,12 +68,12 @@ content:
         - name: 自定义谷歌搜索
           description: 定制化搜索结果
           url: https://www.wideindex.com/
+        - name: 外贸术语工具
+          description: 遇到外贸缩写不认识？快来这里查一查
+          url: http://www.choicexp.com/tool/business-terminology/index.htm
 
     - name: 政府政策网站
       sites:
-        - name: 外贸实务查询
-          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
-          url: http://wmsw.mofcom.gov.cn/wmsw/m
         - name: 中国海关总署
           description: 进出口，跨境海关指导
           url: http://www.customs.gov.cn/
@@ -83,6 +83,9 @@ content:
         - name: 各国商务信息
           description: 对外投资合作国别（地区）指南下载
           url: http://fec.mofcom.gov.cn/article/gbdqzn/#
+        - name: 人民币汇率中间价
+          description: 外汇管理局权威数据
+          url: https://www.safe.gov.cn/safe/rmbhlzjj/index.html
         
         - name: 中国贸促会
           description: 中国国际贸易促进委员会
