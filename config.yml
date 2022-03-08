@@ -112,30 +112,31 @@ content:
 
     - name: 社交平台
       sites:
-        - name: Facebook
-          description: 脸书
-          url: https://www.facebook.com/
-        - name: Instagram
-          description: 开放式朋友圈
-          url: https://www.instagram.com/
-        - name: Whatsapp
-          description: 客户通用聊天工具
-          url: https://www.whatsapp.com/
-        - name: Telegram
-          description: 加密最安全的聊天软件
-          url: https://telegram.org/
-        - name: Pinterest
-          description: 图片采集与发现
-          url: https://www.pinterest.com/
-        - name: Tiktok
-          description: 抖音海外版
-          url: https://www.tiktok.com/
-        - name: Linkedin
-          description: 职场社交，根据公司名称搜索客户
-          url: https://www.linkedin.com/
         - name: Youtube 
           description: 全球最大的视频平台
           url: https://www.youtube.com/
+        - name: Tiktok
+          description: 抖音海外版
+          url: https://www.tiktok.com/
+        - name: Facebook
+          description: 脸书
+          url: https://www.facebook.com/
+        - name: Linkedin
+          description: 职场社交，根据公司名称搜索客户
+          url: https://www.linkedin.com/
+        - name: Whatsapp
+          description: 客户通用聊天工具
+          url: https://www.whatsapp.com/
+        - name: Instagram
+          description: 开放式朋友圈
+          url: https://www.instagram.com/
+        - name: Pinterest
+          description: 图片采集与发现
+          url: https://www.pinterest.com/
+        - name: Telegram
+          description: 加密最安全的聊天软件
+          url: https://telegram.org/
+
 
     - name: 视频会议
       sites:
