@@ -36,40 +36,9 @@ function search() {
     var hotList = 0;
     var searchData = {
         "thisSearch": "https://www.google.com/search?q=",
-        "thisSearchIcon": "https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png",
+        "thisSearchIcon": "https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png",
         "hotStatus": true,
-        "data": [{
-            "name": "谷歌",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px 0px",
-            "position": "-40px 0px",
-            "url": "https://www.google.com/search?q="
-        }, {
-            "name": "必应",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -80px -25px",
-            "position": "0px -40px",
-            "url": "https://cn.bing.com/search?q="
-        }, {
-            "name": "百度",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px 0px",
-            "position": "0px 0px",
-            "url": "https://www.baidu.com/s?wd="
-        }, {
-            "name": "知乎",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -105px -100px",
-            "position": "-40px -160px",
-            "url": "https://www.zhihu.com/search?type=content\u0026q="
-        },{
-            "name": "维基百科",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px -200px",
-            "position": "0px -320px",
-            "url": "https://en.wikipedia.org/w/index.php?search="
-        },
-        {
-            "name": "Quora",
-            "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px -175px",
-            "position": "-40px -280px",
-            "url": "https://www.quora.com/search?q="
-        }]
+        "data": [{"name":"谷歌","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -105px 0px","position":"-40px 0px","url":"https://www.google.com/search?q="},{"name":"必应","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -80px -25px","position":"0px -40px","url":"https://cn.bing.com/search?q="},{"name":"百度","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px 0px","position":"0px 0px","url":"https://www.baidu.com/s?wd="},{"name":"知乎","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -100px","position":"-40px -160px","url":"https://www.zhihu.com/search?type=content\u0026q="}]
     };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
@@ -369,7 +338,7 @@ function search() {
             <section class="sousuo">
               <div class="search">
                 <div class="search-box">
-                  <span class="search-icon" style="background: url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -40px 0px; opacity: 1;"></span>
+                  <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>
                   <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
                   <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
                 </div>
@@ -700,76 +669,16 @@ function search() {
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="社交平台"></i>社交平台</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.facebook.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.facebook.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.youtube.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Facebook</strong>
+                                    <strong>Youtube</strong>
                                 </a>
-                                <p class="overflowClip_2">脸书</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.instagram.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.instagram.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Instagram</strong>
-                                </a>
-                                <p class="overflowClip_2">开放式朋友圈</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.whatsapp.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.whatsapp.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.whatsapp.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Whatsapp</strong>
-                                </a>
-                                <p class="overflowClip_2">客户通用聊天工具</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://telegram.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://telegram.org/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/telegram.org" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Telegram</strong>
-                                </a>
-                                <p class="overflowClip_2">加密最安全的聊天软件</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pinterest.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pinterest.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.pinterest.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Pinterest</strong>
-                                </a>
-                                <p class="overflowClip_2">图片采集与发现</p>
+                                <p class="overflowClip_2">全球最大的视频平台</p>
                             </div>
                         </div>
                     </div>
@@ -790,6 +699,21 @@ function search() {
                     </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.facebook.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.facebook.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Facebook</strong>
+                                </a>
+                                <p class="overflowClip_2">脸书</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.linkedin.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.linkedin.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
@@ -805,16 +729,61 @@ function search() {
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.whatsapp.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.whatsapp.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.youtube.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.whatsapp.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Youtube</strong>
+                                    <strong>Whatsapp</strong>
                                 </a>
-                                <p class="overflowClip_2">全球最大的视频平台</p>
+                                <p class="overflowClip_2">客户通用聊天工具</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.instagram.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.instagram.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Instagram</strong>
+                                </a>
+                                <p class="overflowClip_2">开放式朋友圈</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pinterest.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pinterest.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.pinterest.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Pinterest</strong>
+                                </a>
+                                <p class="overflowClip_2">图片采集与发现</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://telegram.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://telegram.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/telegram.org" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Telegram</strong>
+                                </a>
+                                <p class="overflowClip_2">加密最安全的聊天软件</p>
                             </div>
                         </div>
                     </div>
@@ -1162,7 +1131,7 @@ function search() {
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('mailto:jobs@weqihang.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="mailto:jobs@weqihang.cn">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/weqihang.cn" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1414,7 +1383,6 @@ function search() {
     <!-- JavaScripts initializations and stuff -->
     <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-custom.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/lozad.js"></script>
-    <script src="/update.js"></script>
 </body>
 
 </html>
