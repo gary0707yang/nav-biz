@@ -32,8 +32,6 @@ webstack:
       - bing
       - baidu
       - zhihu
-      - wiki
-      - quora
 
 content:
   categories:
@@ -78,6 +76,10 @@ content:
         - name: 17Track
           description: 全球包裹物流查询平台
           url: https://www.17track.net/zh-cn
+
+        - name: 邮箱真实性验证
+          description: 输入邮箱号码，检测是否是真的邮箱
+          url: https://www.mail-verifier.com/
 
 
 
@@ -138,6 +140,7 @@ content:
         - name: Telegram
           description: 加密最安全的聊天软件
           url: https://telegram.org/
+
 
 
     - name: 视频会议
