@@ -86,7 +86,15 @@ var searchData = {
 
 `
 
+// 5. 邮箱favicon
+
+{/* <img data-src="https://f.start.me/weqihang.cn" class="lozad img-circle" width="40"> */}
+
 // 执行计划
-addWeQr();
-changeLogoLink();
-changeSearchIconLink();
+
+window.onload=function(){
+    addWeQr();
+    changeLogoLink();
+    changeSearchIconLink();
+}
+// changeSearchIconLink(); 触发时间太晚，已完成页面渲染

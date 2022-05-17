@@ -1,11 +1,12 @@
+name: Go testing
+
 on:
   push:
-    branches:
-      - gh-pages
+    branches: 
+      -  gh-pages 
     paths:
       - 'config.yml'
 
-name: Generate index.html
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -14,14 +15,15 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: '1.17.3'
+      
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
       - name: Generate
-        run: |
-          go get -u github.com/x1ah/gena/cmd/gena
-          gena -c config.yml 1> index.html
-
+        run: | 
+          go get -u github.com/gary0707yang/gena/cmd/gena
+          gena -c config.yml 1> demo.html
+        
       # Commit generated files
       - name: Commit files
         run: |

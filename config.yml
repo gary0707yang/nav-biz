@@ -1,5 +1,5 @@
 # title of website
-title: 启航者外贸导航
+title: 启航者
 
 # description of website
 description: 品牌出海，从这里启航
@@ -41,27 +41,49 @@ content:
         - name: HSCODE 查询
           description: HS编码查询网(www.hsbianma.com)是提供进出口商品HS编码查询,商品编码查询的网站。
           url: https://www.hsbianma.com/
-        - name: 外贸术语工具
-          description: 遇到外贸缩写不认识？快来这里查一查
-          url: http://www.choicexp.com/tool/business-terminology/index.htm
-        - name: 人民币汇率中间价
-          description: 外汇管理局权威数据
-          url: https://www.safe.gov.cn/safe/rmbhlzjj/index.html
+        - name: 外贸实务查询
+          description: 国家商务部官方出品，税率，税费，监管，法规全面介绍
+          url: http://wmsw.mofcom.gov.cn/wmsw/m
+        - name: 阿里巴巴-跨境物流服务查询
+          description: 提供海运、空运、快递等跨境物流服务报价及查询服务
+          url: https://shipping.alibaba.com/
         - name: 中国银行外汇牌价
           description: 官方发布渠道
           url: https://www.boc.cn/sourcedb/whpj/
-        - name: 17Track
-          description: 全球包裹物流查询平台
-          url: https://www.17track.net/zh-cn
-        - name: 云岗通
-          description: 全球海运信息查询平台
-          url: https://www.qingdao-port.net/
+
+        - name: 自定义谷歌搜索
+          description: 定制化搜索结果
+          url: https://www.wideindex.com/
         - name: 谷歌趋势
           description: 搜索关键词位置和趋势信息
           url: https://trends.google.com/trends/
         - name: OEC World
           description: 世界经济观察，根据hs编码发掘世界市场变化
           url: https://oec.world/
+        - name: 中国海关数据查询
+          description: 海关总署进出口数据发布
+          url: http://43.248.49.97/
+
+        - name: Whatsapp 桌面端添加多个好友
+          description: 直接使用电脑添加Whatsapp好友，提高沟通效率
+          url: https://whatsappaddingtool.vercel.app/
+        - name: 外贸术语工具
+          description: 遇到外贸缩写不认识？快来这里查一查
+          url: http://www.choicexp.com/tool/business-terminology/index.htm
+        - name: 云港通
+          description: 全球海运信息查询平台
+          url: https://www.qingdao-port.net/
+        - name: 17Track
+          description: 全球包裹物流查询平台
+          url: https://www.17track.net/zh-cn
+
+        - name: 邮箱真实性验证
+          description: 输入邮箱号码，检测是否是真的邮箱
+          url: https://www.mail-verifier.com/
+
+
+
+
 
     - name: 政府政策网站
       sites:
@@ -74,9 +96,10 @@ content:
         - name: 各国商务信息
           description: 对外投资合作国别（地区）指南下载
           url: http://fec.mofcom.gov.cn/article/gbdqzn/#
-        - name: 外贸实务查询
-          description: 国家商务部官方出品，关税，政策，法规全面介绍
-          url: http://wmsw.mofcom.gov.cn/wmsw/
+        - name: 人民币汇率中间价
+          description: 外汇管理局权威数据
+          url: https://www.safe.gov.cn/safe/rmbhlzjj/index.html
+        
         - name: 中国贸促会
           description: 中国国际贸易促进委员会
           url: https://www.ccpit.org/index.html#yewuzizhan
@@ -86,34 +109,39 @@ content:
         - name: 中国出口信用保险公司
           description: 由国家出资设立、支持中国对外经济贸易发展与合作、具有独立法人地位的国有政策性保险公司
           url: https://www.sinosure.com.cn/
+        - name: 中国国际贸易单一窗口
+          description: 原产地证书申请及核查
+          url: https://new.singlewindow.cn/#/standardEdition
 
 
     - name: 社交平台
       sites:
-        - name: Facebook
-          description: 脸书
-          url: https://www.facebook.com/
-        - name: Instagram
-          description: 开放式朋友圈
-          url: https://www.instagram.com/
-        - name: Whatsapp
-          description: 客户通用聊天工具
-          url: https://www.whatsapp.com/
-        - name: Telegram
-          description: 加密最安全的聊天软件
-          url: https://telegram.org/
-        - name: Pinterest
-          description: 图片采集与发现
-          url: https://www.pinterest.com/
-        - name: Tiktok
-          description: 抖音海外版
-          url: https://www.tiktok.com/
-        - name: Linkedin
-          description: 职场社交，根据公司名称搜索客户
-          url: https://www.linkedin.com/
         - name: Youtube 
           description: 全球最大的视频平台
           url: https://www.youtube.com/
+        - name: Tiktok
+          description: 抖音海外版
+          url: https://www.tiktok.com/
+        - name: Facebook
+          description: 脸书
+          url: https://www.facebook.com/
+        - name: Linkedin
+          description: 职场社交，根据公司名称搜索客户
+          url: https://www.linkedin.com/
+        - name: Whatsapp
+          description: 客户通用聊天工具
+          url: https://www.whatsapp.com/
+        - name: Instagram
+          description: 开放式朋友圈
+          url: https://www.instagram.com/
+        - name: Pinterest
+          description: 图片采集与发现
+          url: https://www.pinterest.com/
+        - name: Telegram
+          description: 加密最安全的聊天软件
+          url: https://telegram.org/
+
+
 
     - name: 视频会议
       sites:
@@ -171,15 +199,19 @@ content:
         - name: 全社交平台客户搜索
           description: 通过姓名，电话，地址，邮箱查找客户在社交平台上的信息
           url: https://www.spokeo.com/
-        - name: 自定义谷歌搜索
-          description: 定制化搜索结果
-          url: https://www.wideindex.com/
+        - name: 福步外贸懒人包
+          description: 找公司→找人→挖邮箱，帮你找到开发思路
+          url: https://bbs.fobshanghai.com/dig.php
+        - name: 网站时光机
+          description: 穿越时光，查找网站的历史记录
+          url: https://web.archive.org/
+
 
 
     - name: 谷歌浏览器插件
       sites:
         - name: Grammarly 语法纠正
-          description: 通过姓名，电话，地址，邮箱查找客户在社交平台上的信息
+          description: 自动纠错，发现文本中的语句错误，及时提醒
           url: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen
         - name: Hunter.io
           description: 客户邮箱发现工具
@@ -190,6 +222,33 @@ content:
         - name: Wappalyzer 
           description: 独立站技术研究，分析目标网站的属性
           url: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+    
+    - name: 招聘 & 求职
+      sites:
+        - name: 大众人才网 - 高校网络双选会
+          description: 高效线上就业工作双选会企业报名入口
+          url: https://www.dazhonghr.com/jobfair/main
+          
+        - name: 求职&工作信息发布邮箱 jobs@weqihang.cn
+          description: 发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路
+          url: mailto:jobs@weqihang.cn
+
+
+    - name: 内容工具
+      sites:
+        - name: Answer the Public
+          description: 根据5W1H（What/Who/When/Where/Why/How）产生出以关键词为核心的内容拓展方向。
+          url: https://answerthepublic.com/
+        - name: Buzzsumo
+          description: 根据社媒分享查找当前最热、最流行的内容，掌握内容生产利器。
+          url: https://app.buzzsumo.com/
+        - name: AllTop
+          description: 新闻内容聚合网站，快速了解当前大事向。
+          url: https://alltop.com/
+        - name: HubSpot 话题生成器
+          description: 输入关键词，生成你的博客标题，再也不怕文思枯竭了！
+          url: https://www.hubspot.com/blog-topic-generator
+
 
     - name: 外贸论坛
       sites:
