@@ -5,33 +5,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>启航者外贸导航</title>
+    <title>启航者</title>
     <meta name="keywords" content="品牌出海，从这里启航">
     <meta name="description" content="品牌出海，从这里启航">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6YB11E8N7S"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-6YB11E8N7S');
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5GW3LFJ');
     </script>
+    <!-- End Google Tag Manager -->
+
 
     <link rel="shortcut icon" href="https://weqihang.cn/wp-content/uploads/2022/02/logo-square-small-size-1.jpg">
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/fonts/linecons/css/linecons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/xenon-core.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/xenon-components.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/xenon-skins.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/nav.css">
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/search.css">
+    <link rel="stylesheet" href="/assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="/assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/xenon-core.css">
+    <link rel="stylesheet" href="/assets/css/xenon-components.css">
+    <link rel="stylesheet" href="/assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/search.css">
     <script type="text/javascript">
         function search() {
             $(".search-icon").css("opacity", "1");
@@ -61,16 +70,6 @@
                     "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -105px -100px",
                     "position": "-40px -160px",
                     "url": "https://www.zhihu.com/search?type=content\u0026q="
-                }, {
-                    "name": "维基百科",
-                    "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -80px -200px",
-                    "position": "0px -320px",
-                    "url": "https://en.wikipedia.org/w/index.php?search="
-                }, {
-                    "name": "Quora",
-                    "img": "url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png')  -105px -175px",
-                    "position": "-40px -280px",
-                    "url": "https://www.quora.com/search?q="
                 }]
             };
             var localSearchData = localStorage.getItem("searchData");
@@ -245,18 +244,23 @@
     <!-- / FB Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://find.weqihang.cn">
-    <meta property="og:title" content="启航者外贸导航">
+    <meta property="og:title" content="启航者">
     <meta property="og:description" content="品牌出海，从这里启航">
     <meta property="og:image" content="">
-    <meta property="og:site_name" content="启航者外贸导航">
+    <meta property="og:site_name" content="启航者">
     <!-- / Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="启航者外贸导航">
+    <meta name="twitter:title" content="启航者">
     <meta name="twitter:description" content="品牌出海，从这里启航">
     <meta name="twitter:image" content="">
 </head>
 
 <body class="page-body">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GW3LFJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- skin-white -->
     <div class="page-container">
         <div class="sidebar-menu toggle-others fixed">
@@ -264,14 +268,14 @@
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="/" class="logo-expanded">
+                        <a href="https://weqihang.cn/" class="logo-expanded">
 
-                            <p class="overflowClip_2" style="font-size: 20px;"><strong>启航者外贸导航</strong></p>
+                            <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
 
                         </a>
-                        <a href="/" class="logo-collapsed">
+                        <a href="https://weqihang.cn/" class="logo-collapsed">
 
-                            <p class="overflowClip_2" style="font-size: 20px;"><strong>启航者外贸导航</strong></p>
+                            <p class="overflowClip_2" style="font-size: 20px; color:white;"><strong>启航者</strong></p>
 
                         </a>
                     </div>
@@ -286,6 +290,12 @@
                         <a href="#常用工具" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">常用工具</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#物流查询" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">物流查询</span>
                         </a>
                     </li>
                     <li>
@@ -331,9 +341,28 @@
                         </a>
                     </li>
                     <li>
+                        <a href="#招聘 & 求职" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">招聘 & 求职</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#内容工具" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">内容工具</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="#外贸论坛" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">外贸论坛</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">启航者公众号</span>
+                            <span class="picture"><img style="max-width:100%;margin-top:.8rem;" src="https://weqihang.cn/wp-content/uploads/2022/02/qrcode_wechat.jpg" alt="公众号"></span>
                         </a>
                     </li>
                 </ul>
@@ -361,7 +390,7 @@
             <section class="sousuo">
                 <div class="search">
                     <div class="search-box">
-                        <span class="search-icon" style="background: url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -40px 0px; opacity: 1;"></span>
+                        <span class="search-icon" style="background: url('https://s3.bmp.ovh/imgs/2022/02/198b948ebd0c2e67.png') -40px 0px; opacity: 1;"></span>
                         <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
                         <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
                     </div>
@@ -401,31 +430,16 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.choicexp.com/tool/business-terminology/index.htm', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.choicexp.com/tool/business-terminology/index.htm">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://wmsw.mofcom.gov.cn/wmsw/m', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://wmsw.mofcom.gov.cn/wmsw/m">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.choicexp.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/wmsw.mofcom.gov.cn" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>外贸术语工具</strong>
+                                    <strong>外贸实务查询</strong>
                                 </a>
-                                <p class="overflowClip_2">遇到外贸缩写不认识？快来这里查一查</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.safe.gov.cn/safe/rmbhlzjj/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.safe.gov.cn/safe/rmbhlzjj/index.html">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.safe.gov.cn" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>人民币汇率中间价</strong>
-                                </a>
-                                <p class="overflowClip_2">外汇管理局权威数据</p>
+                                <p class="overflowClip_2">国家商务部官方出品，税率，税费，监管，法规全面介绍</p>
                             </div>
                         </div>
                     </div>
@@ -446,31 +460,16 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.17track.net/zh-cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.17track.net/zh-cn">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.wideindex.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.wideindex.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.17track.net" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.wideindex.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>17Track</strong>
+                                    <strong>自定义谷歌搜索</strong>
                                 </a>
-                                <p class="overflowClip_2">全球包裹物流查询平台</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.qingdao-port.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.qingdao-port.net/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.qingdao-port.net" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>云岗通</strong>
-                                </a>
-                                <p class="overflowClip_2">全球海运信息查询平台</p>
+                                <p class="overflowClip_2">定制化搜索结果</p>
                             </div>
                         </div>
                     </div>
@@ -501,6 +500,85 @@
                                     <strong>OEC World</strong>
                                 </a>
                                 <p class="overflowClip_2">世界经济观察，根据hs编码发掘世界市场变化</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://43.248.49.97/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://43.248.49.97/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/43.248.49.97" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>中国海关数据查询</strong>
+                                </a>
+                                <p class="overflowClip_2">海关总署进出口数据发布</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.choicexp.com/tool/port-charges/index.htm', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.choicexp.com/tool/port-charges/index.htm">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.choicexp.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>口岸杂费参考</strong>
+                                </a>
+                                <p class="overflowClip_2">中国主要口岸港口杂费收费参考</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="物流查询"></i>物流查询</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://shipping.alibaba.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://shipping.alibaba.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/shipping.alibaba.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>阿里巴巴-跨境物流服务查询</strong>
+                                </a>
+                                <p class="overflowClip_2">提供海运、空运、快递等跨境物流服务报价及查询服务</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.qingdao-port.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.qingdao-port.net/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.qingdao-port.net" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>云港通</strong>
+                                </a>
+                                <p class="overflowClip_2">全球海运信息查询平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.17track.net/zh-cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.17track.net/zh-cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.17track.net" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>17Track</strong>
+                                </a>
+                                <p class="overflowClip_2">全球包裹物流查询平台</p>
                             </div>
                         </div>
                     </div>
@@ -555,16 +633,16 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://wmsw.mofcom.gov.cn/wmsw/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://wmsw.mofcom.gov.cn/wmsw/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.safe.gov.cn/safe/rmbhlzjj/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.safe.gov.cn/safe/rmbhlzjj/index.html">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/wmsw.mofcom.gov.cn" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.safe.gov.cn" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>外贸实务查询</strong>
+                                    <strong>人民币汇率中间价</strong>
                                 </a>
-                                <p class="overflowClip_2">国家商务部官方出品，关税，政策，法规全面介绍</p>
+                                <p class="overflowClip_2">外汇管理局权威数据</p>
                             </div>
                         </div>
                     </div>
@@ -614,81 +692,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://new.singlewindow.cn/#/standardEdition', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://new.singlewindow.cn/#/standardEdition">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/new.singlewindow.cn" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>中国国际贸易单一窗口</strong>
+                                </a>
+                                <p class="overflowClip_2">原产地证书申请及核查</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br />
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="社交平台"></i>社交平台</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.facebook.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.facebook.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.youtube.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Facebook</strong>
+                                    <strong>Youtube</strong>
                                 </a>
-                                <p class="overflowClip_2">脸书</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.instagram.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.instagram.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Instagram</strong>
-                                </a>
-                                <p class="overflowClip_2">开放式朋友圈</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.whatsapp.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.whatsapp.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.whatsapp.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Whatsapp</strong>
-                                </a>
-                                <p class="overflowClip_2">客户通用聊天工具</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://telegram.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://telegram.org/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/telegram.org" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Telegram</strong>
-                                </a>
-                                <p class="overflowClip_2">加密最安全的聊天软件</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pinterest.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pinterest.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.pinterest.com" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Pinterest</strong>
-                                </a>
-                                <p class="overflowClip_2">图片采集与发现</p>
+                                <p class="overflowClip_2">全球最大的视频平台</p>
                             </div>
                         </div>
                     </div>
@@ -709,6 +742,21 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.facebook.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.facebook.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Facebook</strong>
+                                </a>
+                                <p class="overflowClip_2">脸书</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.linkedin.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.linkedin.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
@@ -724,16 +772,61 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.whatsapp.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.whatsapp.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.youtube.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/www.whatsapp.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Youtube</strong>
+                                    <strong>Whatsapp</strong>
                                 </a>
-                                <p class="overflowClip_2">全球最大的视频平台</p>
+                                <p class="overflowClip_2">客户通用聊天工具</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://whatsappaddingtool.vercel.app/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://whatsappaddingtool.vercel.app/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/whatsappaddingtool.vercel.app" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Whatsapp 桌面端添加多个好友</strong>
+                                </a>
+                                <p class="overflowClip_2">直接使用电脑添加Whatsapp好友，提高沟通效率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.instagram.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.instagram.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Instagram</strong>
+                                </a>
+                                <p class="overflowClip_2">开放式朋友圈</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pinterest.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pinterest.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.pinterest.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Pinterest</strong>
+                                </a>
+                                <p class="overflowClip_2">图片采集与发现</p>
                             </div>
                         </div>
                     </div>
@@ -965,16 +1058,46 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.wideindex.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.wideindex.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bbs.fobshanghai.com/dig.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bbs.fobshanghai.com/dig.php">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="https://f.start.me/www.wideindex.com" class="lozad img-circle" width="40">
+                                <img data-src="https://f.start.me/bbs.fobshanghai.com" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>自定义谷歌搜索</strong>
+                                    <strong>福步外贸懒人包</strong>
                                 </a>
-                                <p class="overflowClip_2">定制化搜索结果</p>
+                                <p class="overflowClip_2">找公司→找人→挖邮箱，帮你找到开发思路</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://web.archive.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://web.archive.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/web.archive.org" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>网站时光机</strong>
+                                </a>
+                                <p class="overflowClip_2">穿越时光，查找网站的历史记录</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.mail-verifier.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.mail-verifier.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.mail-verifier.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>邮箱真实性验证</strong>
+                                </a>
+                                <p class="overflowClip_2">输入邮箱号码，检测是否是真的邮箱</p>
                             </div>
                         </div>
                     </div>
@@ -993,7 +1116,7 @@
                                 <a href="#" class="xe-user-name overflowClip_1">
                                     <strong>Grammarly 语法纠正</strong>
                                 </a>
-                                <p class="overflowClip_2">通过姓名，电话，地址，邮箱查找客户在社交平台上的信息</p>
+                                <p class="overflowClip_2">自动纠错，发现文本中的语句错误，及时提醒</p>
                             </div>
                         </div>
                     </div>
@@ -1039,6 +1162,104 @@
                                     <strong>Wappalyzer</strong>
                                 </a>
                                 <p class="overflowClip_2">独立站技术研究，分析目标网站的属性</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="招聘 & 求职"></i>招聘 & 求职</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.dazhonghr.com/jobfair/main', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.dazhonghr.com/jobfair/main">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.dazhonghr.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>大众人才网 - 高校网络双选会</strong>
+                                </a>
+                                <p class="overflowClip_2">高效线上就业工作双选会企业报名入口</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('mailto:jobs@weqihang.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="mailto:jobs@weqihang.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>求职&工作信息发布邮箱 jobs@weqihang.cn</strong>
+                                </a>
+                                <p class="overflowClip_2">发布企业人才需求 & 优质人才推荐，为人才和企业搭桥铺路</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="内容工具"></i>内容工具</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://answerthepublic.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://answerthepublic.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/answerthepublic.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Answer the Public</strong>
+                                </a>
+                                <p class="overflowClip_2">根据5W1H（What/Who/When/Where/Why/How）产生出以关键词为核心的内容拓展方向。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://app.buzzsumo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://app.buzzsumo.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/app.buzzsumo.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Buzzsumo</strong>
+                                </a>
+                                <p class="overflowClip_2">根据社媒分享查找当前最热、最流行的内容，掌握内容生产利器。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://alltop.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://alltop.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/alltop.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>AllTop</strong>
+                                </a>
+                                <p class="overflowClip_2">新闻内容聚合网站，快速了解当前大事向。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.hubspot.com/blog-topic-generator', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.hubspot.com/blog-topic-generator">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://f.start.me/www.hubspot.com" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>HubSpot 话题生成器</strong>
+                                </a>
+                                <p class="overflowClip_2">输入关键词，生成你的博客标题，再也不怕文思枯竭了！</p>
                             </div>
                         </div>
                     </div>
@@ -1211,16 +1432,15 @@
         })();
     </script>
     <!-- Bottom Scripts -->
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/TweenMax.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/resizeable.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/joinable.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-api.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-toggles.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/TweenMax.min.js"></script>
+    <script src="/assets/js/resizeable.js"></script>
+    <script src="/assets/js/joinable.js"></script>
+    <script src="/assets/js/xenon-api.js"></script>
+    <script src="/assets/js/xenon-toggles.js"></script>
     <!-- JavaScripts initializations and stuff -->
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/lozad.js"></script>
-    <script src="/update.js"></script>
+    <script src="/assets/js/xenon-custom.js"></script>
+    <script src="/assets/js/lozad.js"></script>
 </body>
 
 </html>
